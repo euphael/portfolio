@@ -29,27 +29,22 @@ header section {
     margin-bottom: 10px;
 }
 
+header section a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Estilos principais */
 main {
-    text-align: center;
     padding: 20px;
 }
 
-/* Estilo para o botão */
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #005f6a;
-}
+.first-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
 /* Estilo da mensagem */
 #message {
@@ -70,7 +65,6 @@ footer {
 }
 
 #typing-effect {
-    display: flex;
     font-size: 24px;
     font-family: monospace;
     white-space: nowrap;
@@ -87,10 +81,10 @@ footer {
 
 @keyframes typing {
     20% {
-        width: 40ch;
+        width: 33ch;
     }
     70% {
-        width: 40ch;
+        width: 33ch;
     }
     85% {
         width: 0;
