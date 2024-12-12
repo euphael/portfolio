@@ -1,0 +1,109 @@
+/* Reset básico de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos do cabeçalho */
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: #392E46;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header section {
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+/* Estilos principais */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f6a;
+}
+
+/* Estilo da mensagem */
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#typing-effect {
+    display: flex;
+    font-size: 24px;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid #333;
+    width: 0ch;
+    overflow: hidden;
+    animation: typing 5s steps(22, end) infinite,
+    blinking 0.5s infinite step-end;
+}
+
+#bar-effect {
+    animation: blinking 0.1s infinite step-end alternate;
+  }
+
+@keyframes typing {
+    20% {
+        width: 40ch;
+    }
+    70% {
+        width: 40ch;
+    }
+    85% {
+        width: 0;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50%{
+        border-color: transparent;
+    }
+}
+
+
