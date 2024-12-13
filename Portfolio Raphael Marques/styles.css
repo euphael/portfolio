@@ -28,6 +28,11 @@ header {
     padding: 10px;
 }
 
+a {
+    text-decoration: none; 
+    color: #6E21C5;
+}
+
 header section {
     padding: 30px;
     margin-bottom: 10px;
@@ -188,7 +193,6 @@ main {
 }
 
 .timeline-content {
-    padding: 20px;
     background: transparent;
     position: relative;
     border-radius: 6px;
