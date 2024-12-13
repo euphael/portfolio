@@ -4,4 +4,6 @@
 - #64349B ( Roxo Médio )
 - #7000F0 ( Roxo claro )
 - #523870 ( Roxo Médio )
-- #392E46 ( Roxo escuro )
+- #1c0a30 ( Roxo escuro )
+- Color black
+- Color text: #bbbbbb
