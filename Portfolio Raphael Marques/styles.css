@@ -30,7 +30,7 @@ header {
 
 a {
     text-decoration: none; 
-    color: #6E21C5;
+    color: #00ff4c;
 }
 
 header section {
@@ -205,6 +205,40 @@ main {
 }
 
 
+/* CONTATO */
+
+#contact {
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-box {
+    padding: 30px;
+    border: 1px solid #6E21C5;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box p {
+    margin: 10px 0;
+}
+
+.contact-box a {
+    color: #00ff4c;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: none;
+}
+
+
 /* Estilo do rodapé */
 footer {
     background-color: #333;
@@ -214,6 +248,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 1;
 }
 
 hr {
