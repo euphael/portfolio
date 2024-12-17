@@ -99,30 +99,6 @@ main {
     border: 1px solid #6E21C5;
 }
 
-@media (max-width: 768px) {
-
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
-        text-align: center;
-      }
-
-    header section {
-        padding: 10px;
-        margin-bottom: 5px;
-    }
-    .about-block {
-        flex-direction: column;
-        padding: 10%;
-    }
-
-    .about-block img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-}
 
 
 
@@ -178,7 +154,7 @@ main {
 /* linha do tempo */
 
 .timeline-section {
-    padding: 20px;
+    padding: 10px;
     background: transparent;
     box-shadow: 0 1px 12px 1px #6E21C5 ;
     border: 1px solid #6E21C5 ; 
@@ -203,7 +179,7 @@ main {
 }
 
 .timeline-item {
-    padding: 10px 40px;
+    padding: 0px 15px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -355,4 +331,28 @@ hr {
     }
 }
 
+@media (max-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        text-align: center;
+      }
+
+    header section {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    .about-block {
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    .about-block img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
 
